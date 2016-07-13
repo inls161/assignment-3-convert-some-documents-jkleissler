@@ -11,4 +11,4 @@ pandoc -o $INPUTFILE.odt $INPUTFILE.md
 # Convert markdown to PDF
 pandoc -o $INPUTFILE.pdf $INPUTFILE.md
 # Make the command line read "Converted INPUT-FILENAME to HTML, DOCX, ODT, PDF"
-echo "Converted INPUT-FILENAME to HTML, DOCX, ODT, PDF"
+echo "Converted $INPUTFILE to HTML, DOCX, ODT, PDF"
